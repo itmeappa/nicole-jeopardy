@@ -1,0 +1,189 @@
+{
+  "categories": [
+    {
+      "name": "Bop-Its and Other Shnoe Shnair",
+      "questions": [
+        {
+          "value": 200,
+          "question": "A woodwind instrument shared by Nicole, Benny Goodman, and Squidward Tentacles.",
+          "answer": "What is a Clarinet?"
+        },
+        {
+          "value": 400,
+          "question": "The sound you would make when the basketball goes through the hoop without touching the rim or backboard, this 5 letter word was the name for Nicole's first Pokemon: Piplup.",
+          "answer": "What is Swish?"
+        },
+        {
+          "value": 600,
+          "question": "This sign is known for their nurturing, emotional, and sensitive nature. This is Nicole's rising and moon star sign.",
+          "answer": "What is Cancer?"
+        },
+        {
+          "value": 800,
+          "question": "The name of this sport would lead you to believe that it begins and ends on different American coasts. Nicole competed in this sport in high school, which involves running long distances over natural terrain.",
+          "answer": "What is Cross-Country?"
+        },
+        {
+          "value": 1000,
+          "question": "Started by a German immigrant with the surname Strauss, this clothing company is one of Nicole's favorites. A marketing campaign incorrectly suggests that this company sold its first pair of jeans to miners during the California Gold Rush.",
+          "answer": "What is Levi's?"
+        }
+      ]
+    },
+    {
+      "name": "Places",
+      "questions": [
+        {
+          "value": 200,
+          "question": "This Northern California city is where Nicole was raised, when translated means Saint Joseph.",
+          "answer": "Where is San Jose?"
+        },
+        {
+          "value": 400,
+          "question": "This New England city holds the university at which Nicole studied her undergraduate degree in English and Ethnic Studies.",
+          "answer": "Where is Providence?"
+        },
+        {
+          "value": 600,
+          "question": "The place where Nicole was born.",
+          "answer": "Where is Seoul?"
+        },
+        {
+          "value": 800,
+          "question": "Our favorite place for socializing as of late, this garage-based space cross-accessibility contact is just around the corner!",
+          "answer": "What is Come Forever?"
+        },
+        {
+          "value": 1000,
+          "question": "This is the first known home of Saddle, the place through which we first met and adopted the dog that is now known as Keno.",
+          "answer": "What is the Brooklyn ACC?"
+        }
+      ]
+    },
+    {
+      "name": "Hobbies",
+      "questions": [
+        {
+          "value": 200,
+          "question": "An activity that Stanley introduced to Nicole, this growing sub-category of digital entertainment was popularized by Stardew Valley and Animal Crossing.",
+          "answer": "What are Cozy Video Games?"
+        },
+        {
+          "value": 400,
+          "question": "Nicole's 3 favorite animals: a large ocean mammal, a 4-legged creature featured in both Porsche and Ferrari's insignia, and it's a plane, it's Superman, no, it's the first thing Superman is mistaken for.",
+          "answer": "What are Birds, Horses, and Whales?"
+        },
+        {
+          "value": 600,
+          "question": "Nicole has developed a knack for this color coordinating, light directing and form/function balancing practice that includes styles such as Scandinavian, Art Deco, Minimalist, and Mid-Century Modern.",
+          "answer": "What is Interior Design?"
+        },
+        {
+          "value": 800,
+          "question": "A portmanteau of a Japanese word meaning meditation and a quadrilateral with only 90 degree angles is one of Nicole's latest coloring pencil practices.",
+          "answer": "What is Zentangle?"
+        },
+        {
+          "value": 1000,
+          "question": "Clacky and thocky are words used to describe Nicole's newfound fanaticism over a subtype of computer peripheral that would have been hard to find outside of a video gamer's desk just ten years ago.",
+          "answer": "What are Mechanical Keyboards?"
+        }
+      ]
+    },
+    {
+      "name": "Books & Art",
+      "questions": [
+        {
+          "value": 200,
+          "question": "On Nicole and Stanley's first date, Stanley described this romantic-era Polish composer as a simp. This artist is well known for numerous solo piano compositions, including Nocturne in Eb Major and Fantaisie-Impromptu.",
+          "answer": "Who is Frederic Chopin?"
+        },
+        {
+          "value": 400,
+          "question": "Nicole and Stanley recently became fans of this early 2000's cult classic TV show that originated the popular TikTok sound: \"He's just a man, Lorelai\", set in the fictional Connecticut town of Stars Hollow.",
+          "answer": "What is Gilmore Girls?"
+        },
+        {
+          "value": 600,
+          "question": "Nicole's senior thesis is about the work of this NYU faculty member and Vietnamese-American poet who has exploded in popularity this decade for works such as Time is a Mother and On Earth We're Briefly Gorgeous.",
+          "answer": "Who is Ocean Vuoung?"
+        },
+        {
+          "value": 800,
+          "question": "\"For women, then, poetry is not a luxury\" is in the mission statement of Nicole's literary magazine and a quote from this self-described \"Black, lesbian, feminist, socialist, mother, warrior, poet\".",
+          "answer": "Who is Audre Lorde?"
+        },
+        {
+          "value": 1000,
+          "question": "Nicole is one degree of separation from this disability rights activist who voiced a fictionalized version of herself in the Netflix series Human Resources and authored famous works such as Year of the Tiger and Disability Intimacy.",
+          "answer": "Who is Alice Wong?"
+        }
+      ]
+    },
+    {
+      "name": "Origin Stories",
+      "questions": [
+        {
+          "value": 200,
+          "question": "These are Nicole's 2 favorite dog breeds. One of which is the breed of our dog Keno, and the other is the breed of Nicole's small white family mop-dog, Mimi.",
+          "answer": "What are Pitbulls and Malteses?"
+        },
+        {
+          "value": 400,
+          "question": "A fabric that Nicole holds dear to her heart; 4 years ago this day, she ran into Stanley unexpectedly wearing matching overalls of this fabric.",
+          "answer": "What is Denim?"
+        },
+        {
+          "value": 600,
+          "question": "A job Nicole proudly held in college with origins in Hindu, Jain, and Buddhist traditions that includes a myriad of poses, such as Child's pose and Downward Dog.",
+          "answer": "What is Yoga Teacher?"
+        },
+        {
+          "value": 800,
+          "question": "Nicole's dream profession as a kid. You'd certainly find this profession in San Diego, the Bronx, and the Smithsonian, tending to the daily care and maintenance of a wide array of animals.",
+          "answer": "What is Zookeeper?"
+        },
+        {
+          "value": 1000,
+          "question": "A profession that Nicole gave up in her senior year of college after recognizing the years of exploitation she would have to suffer in the process of becoming this title that can be attributed to people such as Henry Louis Gates Jr and Toni Morrison.",
+          "answer": "What is English Professor?"
+        }
+      ]
+    },
+    {
+      "name": "Back To School",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The number of people that Nicole has asked out randomly one day after purposefully ignoring and the cubic root of 27.",
+          "answer": "What is 3?"
+        },
+        {
+          "value": 400,
+          "question": "Lay dormant for most of the year and sold often in grocery stores, a resilient flower that grow on other rocks or other plants that Nicole enjoys growing.",
+          "answer": "What is an Orchid?",
+          "image": "./src/data/orchid.jpeg"
+        },
+        {
+          "value": 600,
+          "question": "The number of years Nicole attended Korean school and the answer to (3x + 8)/11 = 4y.",
+          "answer": "What is 12?"
+        },
+        {
+          "value": 800,
+          "question": "A bird that Nicole would see on her many jogs back home in California, named after a bird that you might consume on the National Day of Mourning and a bird / insult that you might call someone who takes advantage of a person in a bad situation.",
+          "answer": "What is a Turkey Vulture?",
+          "image": "./src/data/turkey-vulture.jpg"
+        },
+        {
+          "value": 1000,
+          "question": "The academic basis of Nicole's senior thesis, a word used by people when they commonly mean to say a similarly spelled word that means a consequence of an action or other cause.",
+          "answer": "What is Affect Theory?"
+        }
+      ]
+    }
+  ],
+  "finalJeopardy": {
+    "question": "Write your best joke about Nicole"
+  }
+}

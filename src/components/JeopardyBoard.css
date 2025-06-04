@@ -1,0 +1,96 @@
+/* JeopardyBoard styles */
+.jeopardy-board {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%; /* Make the board take full height of the container */
+  border: 3px solid #060ce9; /* Classic Jeopardy blue border */
+  background-color: #060ce9; /* Classic Jeopardy blue background */
+  border-radius: 10px;
+  padding: 10px;
+  gap: 5px;
+}
+
+.categories-row, .jeopardy-row {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+
+.categories-row {
+  height: 15%; /* Allocate 15% of board height to category headers */
+}
+
+.jeopardy-row {
+  flex: 1; /* Each row takes equal portion of remaining space */
+}
+
+.category-cell {
+  flex: 1;
+  background-color: #060ce9; /* Classic Jeopardy blue background */
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+/* Incorporated JeopardyQuestion styles */
+.jeopardy-cell {
+  flex: 1;
+  background-color: #060ce9; /* Classic Jeopardy blue background */
+  color: #f8c330; /* Classic Jeopardy gold text */
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 2px solid #052cae; /* Darker blue border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.jeopardy-cell:hover {
+  background-color: #0a0fce; /* Lighter blue on hover */
+  transform: scale(1.02);
+}
+
+.jeopardy-cell.selected {
+  background-color: #052cae; /* Darker blue when selected */
+  color: #f8c330; /* Gold text */
+}
+
+.jeopardy-cell.answered {
+  background-color: #052cae; /* Darker blue for answered cells */
+  color: transparent; /* Hide the text */
+  cursor: default;
+}
+
+@media (max-width: 768px) {
+  .category-cell {
+    font-size: calc(0.7rem + 0.5vw);
+    padding: 2px;
+  }
+
+  .jeopardy-cell {
+    font-size: calc(1rem + 1vw);
+  }
+}
+
+@media (max-width: 480px) {
+  .category-cell {
+    font-size: calc(0.6rem + 0.3vw);
+    padding: 2px 1px;
+  }
+
+  .jeopardy-cell {
+    font-size: calc(0.8rem + 0.5vw);
+  }
+}

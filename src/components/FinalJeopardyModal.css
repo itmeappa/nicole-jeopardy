@@ -1,0 +1,86 @@
+/* FinalJeopardyModal styles */
+.final-jeopardy-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.final-jeopardy-content {
+  background-color: #060ce9; /* Classic Jeopardy blue background */
+  border: 3px solid #f8c330; /* Gold border */
+  border-radius: 10px;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.final-jeopardy-content h1 {
+  color: #f8c330; /* Gold text */
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.final-jeopardy-content h2 {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.final-question-text {
+  color: white;
+  font-size: 1.8rem;
+  margin: 25px 0;
+  line-height: 1.4;
+}
+
+.final-jeopardy-content button {
+  background-color: #f8c330; /* Gold button */
+  color: #060ce9; /* Blue text */
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 20px;
+}
+
+.final-jeopardy-content button:hover {
+  background-color: #e5b730; /* Darker gold on hover */
+  transform: scale(1.05);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .final-jeopardy-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .final-question-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .final-jeopardy-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .final-jeopardy-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .final-question-text {
+    font-size: 1.3rem;
+  }
+}

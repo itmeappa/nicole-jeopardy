@@ -1,0 +1,142 @@
+/* JeopardyQuestionModal styles */
+.question-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.question-content {
+  background-color: #060ce9; /* Classic Jeopardy blue background */
+  border: 3px solid #f8c330; /* Gold border */
+  border-radius: 10px;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative; /* Add this to position the close button */
+}
+
+.question-content h2 {
+  color: #f8c330; /* Gold text */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.question-text {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+.answer p {
+  color: #f8c330; /* Gold text */
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.question-content button {
+  background-color: #f8c330; /* Gold button */
+  color: #060ce9; /* Blue text */
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.question-content button:hover {
+  background-color: #e5b730; /* Darker gold on hover */
+  transform: scale(1.05);
+}
+
+/* Close button styling */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #f8c330; /* Gold text */
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+  padding: 0;
+  line-height: 1;
+}
+
+.close-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+/* Rename the main action button for clarity */
+.show-answer-button {
+  background-color: #f8c330; /* Gold button */
+  color: #060ce9; /* Blue text */
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.show-answer-button:hover {
+  background-color: #e5b730; /* Darker gold on hover */
+  transform: scale(1.05);
+}
+
+/* Image styling for questions with images */
+.question-image-container {
+  margin: 15px auto 25px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.question-image {
+  max-width: 100%;
+  max-height: 300px;
+  border: 2px solid #f8c330; /* Gold border */
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .question-text {
+    font-size: 1.4rem;
+  }
+
+  .question-content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .question-text {
+    font-size: 1.2rem;
+  }
+
+  .question-content h2 {
+    font-size: 1.6rem;
+  }
+}
