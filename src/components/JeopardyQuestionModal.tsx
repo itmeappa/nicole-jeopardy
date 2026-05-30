@@ -1,5 +1,6 @@
 import { type FC, useState } from 'react';
 import type { Question } from './JeopardyBoard';
+
 import './JeopardyQuestionModal.css';
 
 interface JeopardyQuestionModalProps {
@@ -19,7 +20,7 @@ const JeopardyQuestionModal: FC<JeopardyQuestionModalProps> = ({ question, onClo
     <div className="question-modal">
       <div className="question-content">
         {/* Close button as X in the top right */}
-        <button className="close-button" onClick={onClose}>×</button>
+        <button className="close-button" onClick={onClose}>X</button>
 
         <h2>${question.value}</h2>
         <p className="question-text">{question.question}</p>

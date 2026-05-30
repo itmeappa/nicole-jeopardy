@@ -1,5 +1,8 @@
+body {
+  background-color: #d7ffbf;
+}
+
 #root {
-  width: 80%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -14,10 +17,20 @@
   height: 80vh; /* Set the height to 80% of the viewport height */
 }
 
+.jeopardy-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    border-top: 1px dotted rgb(56, 21, 76);
+    width: 75%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
 h1 {
-  color: #f8c330; /* Gold heading */
-  margin-bottom: 30px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #381717; /* Gold heading */
+  margin-bottom: 0;
 }
 
 /* Responsive design for main container elements */

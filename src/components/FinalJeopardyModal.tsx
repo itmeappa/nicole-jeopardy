@@ -2,9 +2,7 @@ import { type FC, useState } from 'react';
 import './FinalJeopardyModal.css';
 
 interface FinalJeopardyQuestion {
-  category: string;
   question: string;
-  answer: string;
 }
 
 interface FinalJeopardyModalProps {

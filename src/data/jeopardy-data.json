@@ -35,23 +35,23 @@
       "questions": [
         {
           "value": 200,
+          "question": "This cross-accessibility space based in a garage is our favorite social space as of late!",
+          "answer": "What is Come Forever?"
+        },
+        {
+          "value": 400,
           "question": "This Northern California city is where Nicole was raised, when translated means Saint Joseph.",
           "answer": "Where is San Jose?"
         },
         {
-          "value": 400,
+          "value": 600,
           "question": "This New England city holds the university at which Nicole studied her undergraduate degree in English and Ethnic Studies.",
           "answer": "Where is Providence?"
         },
         {
-          "value": 600,
+          "value": 800,
           "question": "The place where Nicole was born.",
           "answer": "Where is Seoul?"
-        },
-        {
-          "value": 800,
-          "question": "Our favorite place for socializing as of late, this garage-based space cross-accessibility contact is just around the corner!",
-          "answer": "What is Come Forever?"
         },
         {
           "value": 1000,
@@ -136,17 +136,17 @@
         {
           "value": 600,
           "question": "A job Nicole proudly held in college with origins in Hindu, Jain, and Buddhist traditions that includes a myriad of poses, such as Child's pose and Downward Dog.",
-          "answer": "What is Yoga Teacher?"
+          "answer": "What is a Yoga Teacher?"
         },
         {
           "value": 800,
           "question": "Nicole's dream profession as a kid. You'd certainly find this profession in San Diego, the Bronx, and the Smithsonian, tending to the daily care and maintenance of a wide array of animals.",
-          "answer": "What is Zookeeper?"
+          "answer": "What is a Zookeeper?"
         },
         {
           "value": 1000,
           "question": "A profession that Nicole gave up in her senior year of college after recognizing the years of exploitation she would have to suffer in the process of becoming this title that can be attributed to people such as Henry Louis Gates Jr and Toni Morrison.",
-          "answer": "What is English Professor?"
+          "answer": "What is an English Professor?"
         }
       ]
     },

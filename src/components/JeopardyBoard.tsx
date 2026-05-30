@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import jeopardyData from '../data/jeopardy-data.json';
+import { useState } from 'react';
+import JeopardyData from '../data/jeopardy-data.json';
 import './JeopardyBoard.css';
 
 // Define types for our Jeopardy data
@@ -15,33 +15,15 @@ export interface Category {
   questions: Question[];
 }
 
-export interface JeopardyData {
-  categories: Category[];
-  finalJeopardy: {
-    category: string;
-    question: string;
-    answer: string;
-  };
-}
 
 interface JeopardyBoardProps {
   onQuestionSelected: (categoryIndex: number, valueIndex: number, question: Question) => void;
-  onAllQuestionsAnswered: (finalJeopardy: JeopardyData['finalJeopardy']) => void;
 }
 
-const JeopardyBoard = ({ onQuestionSelected, onAllQuestionsAnswered }: JeopardyBoardProps) => {
+const JeopardyBoard = ({ onQuestionSelected }: JeopardyBoardProps) => {
   // Cast imported data to our interface
-  const data = jeopardyData as JeopardyData;
+  const data = JeopardyData;
   const [answeredCells, setAnsweredCells] = useState<Set<string>>(new Set());
-  const totalQuestions = data.categories.length * 5; // 6 categories x 5 questions each
-
-  // Check if all questions are answered
-  useEffect(() => {
-    if (answeredCells.size === totalQuestions) {
-      // All questions have been answered, trigger Final Jeopardy
-      onAllQuestionsAnswered(data.finalJeopardy);
-    }
-  }, [answeredCells, totalQuestions]);
 
   // Handle click on a Jeopardy cell
   const handleCellClick = (categoryIndex: number, valueIndex: number) => {
