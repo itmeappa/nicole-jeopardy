@@ -38,7 +38,7 @@ const JeopardyQuestionModal: FC<JeopardyQuestionModalProps> = ({ question, onClo
 
         {showAnswer ? (
           <div className="answer">
-            <p>{question.answer}</p>
+            <p>{"Were you trying to cheat?! >:("}</p>
           </div>
         ) : (
           <button className="show-answer-button" onClick={handleShowAnswer}>Show Answer</button>
