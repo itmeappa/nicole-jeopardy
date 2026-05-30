@@ -1,7 +1,11 @@
 import { type FC, useState } from 'react';
+import TurkeyVultureUrl from "../data/turkey-vulture.jpg";
+import Orchid from "../data/orchid.jpeg";
 import type { Question } from './JeopardyBoard';
 
 import './JeopardyQuestionModal.css';
+
+// const BASE_URL = import.meta.url;
 
 interface JeopardyQuestionModalProps {
   question: Question;
@@ -14,6 +18,14 @@ const JeopardyQuestionModal: FC<JeopardyQuestionModalProps> = ({ question, onClo
   // Handle showing the answer
   const handleShowAnswer = () => {
     setShowAnswer(true);
+  };
+
+  const getImageUrl = (relativeUrl: string) => {
+    if (relativeUrl.includes("turkey-vulture")) {
+        return TurkeyVultureUrl;
+    } else if (relativeUrl.includes("orchid")) {
+        return Orchid;
+    }
   };
 
   return (
@@ -29,7 +41,7 @@ const JeopardyQuestionModal: FC<JeopardyQuestionModalProps> = ({ question, onClo
         {question.image && (
           <div className="question-image-container">
             <img
-              src={question.image}
+              src={getImageUrl(question.image)}
               alt="Question visual"
               className="question-image"
             />
